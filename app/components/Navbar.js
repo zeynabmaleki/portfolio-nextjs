@@ -28,7 +28,7 @@ export default function Navbar() {
 
     return (
         <nav className='fixed top-0 left-0 right-0 z-10 bg-zinc-800'>
-            <div className='flex flex-wrap items-center justify-between mx-auto py-5 px-8'>
+            <div className='flex flex-wrap items-center justify-between mx-auto py-5 px-8 lg:px-25'>
                 <Link href={"/"} className='text-2xl md:text-5xl text-white font-semibold'>
                     LOGO
                 </Link>
