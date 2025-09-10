@@ -104,7 +104,7 @@ export default function EmailSection() {
                         <textarea
                             name="message"
                             id="message"
-                            placeholder='Lets talk about...'
+                            placeholder='Let&apos;s talk about...'
                             className='bg-zinc-700/90 border-zinc-700/60 text-sm rounded-lg block w-full p-2'
                         />
                     </div>
