@@ -43,7 +43,7 @@ export default function EmailSection() {
             {/* <div className="size-130 rounded-full bg-radial-[at_50%_75%] blur-3xl   from-purple-900 from-40% to-zinc-800 absolute top-1/2 left-50 transform -translate-x-1/2 -translate-1/2"></div> */}
             <div className='z-9 pl-2'>
 
-                <h5 className='font-bold text-2xl text-zinc-50  mb-10'>Let's connect</h5>
+                <h5 className='font-bold text-2xl text-zinc-50  mb-10'>Let&apos;s connect</h5>
                 <p className='text-zinc-400 mb-4 max-w-md text-lg'>
                     I&apos;m always excited to connect with fellow developers,
                     potential collaborators, or anyone interested in my work.
