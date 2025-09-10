@@ -36,7 +36,7 @@ export default function ProjectSection() {
     return (
         <div className='flex flex-col mt-30'>
         <h2 className='text-center mb-17 text-3xl font-semibold'>My projects</h2>
-        <div className='grid sm:grid-cols-2 grid-cols-1 gap-10'>
+        <div className='grid sm:grid-cols-2 grid-cols-1 gap-10 mx-5'>
             {projectData.map(project => 
                 <ProjectCard
                 key={project.id}

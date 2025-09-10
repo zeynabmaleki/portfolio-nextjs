@@ -25,7 +25,7 @@ export default function ProjectCard({ imageUrl, title, description, gitUrl }) {
         // </div>
 
 
-        <div className='flex flex-col h-auto justify-between items-center mx-auto bg-zinc-700/40 rounded-2xl hover:scale-105 duration-500 transform hover:shadow-xl border-double shadow-black text-stone-300 w-full'>
+        <div className='flex flex-col h-auto w-full justify-between items-center mx-auto bg-zinc-700/40 rounded-2xl hover:scale-105 duration-500 transform hover:shadow-xl border-double shadow-black text-stone-300 '>
             <div className="relative w-full group ">
                 <Image
                     src={imageUrl}
