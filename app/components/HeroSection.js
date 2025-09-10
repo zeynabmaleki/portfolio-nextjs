@@ -30,10 +30,10 @@ export default function HeroSection() {
                         />
                     </h1>
                     <p className='text-zinc-300 text-base sm:text-lg lg:text-xl mb-6'>
-                        I’m a junior Frontend Developer passionate about building beautiful and user-friendly web experiences.
+                        I&apos;m a junior Frontend Developer passionate about building beautiful and user-friendly web experiences.
                         With a background in computer engineering and a strong interest in UI/UX design,
                         I bring creativity and technical skills to every project.
-                        Let’s create something amazing together!
+                        Let&apos;s create something amazing together!
                     </p>
                     <div>
                         <button className='w-full sm:w-fit px-6 py-3 rounded-full mr-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:scale-105 duration-300 text-zinc-200'>

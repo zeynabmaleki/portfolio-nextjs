@@ -45,11 +45,11 @@ export default function EmailSection() {
 
                 <h5 className='font-bold text-2xl text-zinc-50  mb-10'>Let's connect</h5>
                 <p className='text-zinc-400 mb-4 max-w-md text-lg'>
-                    I'm always excited to connect with fellow developers,
+                    I&apos;m always excited to connect with fellow developers,
                     potential collaborators, or anyone interested in my work.
                     Whether you have a project in mind, want to discuss opportunities,
                     or just say hello, feel free to reach out.
-                    Let's build something amazing together!
+                    Let&apos;s build something amazing together!
                 </p>
 
 
