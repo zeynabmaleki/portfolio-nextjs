@@ -1,5 +1,7 @@
 # Zeynab Maleki Rad's Portfolio
 
+Live ===> https://zeynabmaleki-portfolio.netlify.app
+
 A modern, responsive portfolio website built with Next.js, showcasing my journey as a Junior Frontend Developer and UI/UX Designer. This portfolio highlights my skills, projects, and passion for creating beautiful and user-friendly web experiences.
 
 ## 🚀 About Me
