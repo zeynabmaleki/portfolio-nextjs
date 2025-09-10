@@ -39,9 +39,9 @@ export default function EmailSection() {
 
 
     return (
-        <section className='grid md:grid-cols-2 my-12 md:my-25 py-24 gap-4 mx-10  relative'>
+        <section id="contact" className='scroll-mt-20 grid md:grid-cols-2 my-12 md:my-25 py-24 gap-15  mx-10  relative'>
             {/* <div className="size-130 rounded-full bg-radial-[at_50%_75%] blur-3xl   from-purple-900 from-40% to-zinc-800 absolute top-1/2 left-50 transform -translate-x-1/2 -translate-1/2"></div> */}
-            <div className='z-9 pl-2'>
+            <div className='z-9 pl-2 max-md:pb-15'>
 
                 <h5 className='font-bold text-2xl text-zinc-50  mb-10'>Let&apos;s connect</h5>
                 <p className='text-zinc-400 mb-4 max-w-md text-lg'>
@@ -55,8 +55,8 @@ export default function EmailSection() {
 
                 <div className='socials flex flex-row gap-15 mt-10 text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-400'>
                     {/* <FaGithub /> */}
-                    <Link href='github.com' className='hover:text-zinc-200 '>Github</Link>
-                    <Link href='/' className='hover:text-zinc-200 ' >Jobvision </Link>
+                    <Link href='https://github.com/zeynabmaleki' className='hover:text-zinc-200 '>Github</Link>
+                    <Link href='https://jobvision.ir/cv/89898381-004723' className='hover:text-zinc-200 ' >Jobvision </Link>
                 </div>
             </div>
 

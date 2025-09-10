@@ -1,15 +1,17 @@
-import React from 'react'
+'use client'
+
 import Link from 'next/link'
 
-
 export default function NavLink({ href, title }) {
-    return (
+    const isAnchor = href.startsWith('#')
 
-        <Link
-            href={href}
-            className='block py-2 pl-3 text-zinc-100 sm:text-xl rounded md:p-0  hover:text-zinc-50'>
+    return isAnchor ? (
+        <a href={href} className="text-white hover:text-gray-300">
+            {title}
+        </a>
+    ) : (
+        <Link href={href} className="text-white hover:text-gray-300">
             {title}
         </Link>
-
     )
 }

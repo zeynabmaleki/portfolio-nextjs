@@ -29,16 +29,6 @@ const TAB_DATA = [
             </ul>
         )
     }
-    // },
-    // {
-    //     title: "Experience",
-    //     id: "experience",
-    //     content: (
-    //         <ul>
-    //             <li>Experience</li>
-    //         </ul>
-    //     )
-    // }
 ]
 
 
@@ -55,7 +45,7 @@ export default function AboutSection() {
     }
 
     return (
-        <section className='text-zinc-300'>
+        <section id='about' className='text-zinc-300 scroll-mt-20'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
                 <Image
                     src="/pic/pc-pic.png"
@@ -87,23 +77,17 @@ export default function AboutSection() {
                         <TabButton
                             selectTab={() => handleTabChange('skills')}
                             active={tab === 'skills'}>
-                            {" "}
-                            skills {" "}
+                            
+                            skills 
                         </TabButton>
 
                         <TabButton
                             selectTab={() => handleTabChange('education')}
                             active={tab === 'education'}>
-                            {" "}
-                            Education{" "}
+                            
+                            Education
                         </TabButton>
 
-                        {/* <TabButton
-                            selectTab={() => handleTabChange('experience')}
-                            active={tab === 'experience'}>
-                            {" "}
-                            Experience{" "}
-                        </TabButton> */}
                     </div>
 
                     <div className='mt-8'>
