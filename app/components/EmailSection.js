@@ -37,9 +37,8 @@ export default function EmailSection() {
         }
     };
 
-
     return (
-        <section id="contact" className='scroll-mt-20 grid md:grid-cols-2 my-12 md:my-25 py-24 gap-15  mx-10  relative'>
+        <section id="contact" className='scroll-mt-20 grid md:grid-cols-2 my-12 md:my-25 py-24 gap-15 mx-0 relative'>
             {/* <div className="size-130 rounded-full bg-radial-[at_50%_75%] blur-3xl   from-purple-900 from-40% to-zinc-800 absolute top-1/2 left-50 transform -translate-x-1/2 -translate-1/2"></div> */}
             <div className='z-9 pl-2 max-md:pb-15'>
 

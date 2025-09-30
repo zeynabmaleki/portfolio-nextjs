@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useRef } from 'react'
-import ProjectCard from './ProjectCard'
-import { motion, useInView } from 'framer-motion'
+import ProjectSlide from './ProjectSlide'
+// import { motion, useInView } from 'framer-motion'
 
 const projectData = [
     {
@@ -35,22 +35,34 @@ const projectData = [
     },
 ]
 
-const cardVariants = {
-    initial: { y: 50, opacity: 0 },
-    animate: { y: 0, opacity: 1 }
-}
+// const cardVariants = {
+//     initial: { y: 50, opacity: 0 },
+//     animate: { y: 0, opacity: 1 }
+// }
 
 export default function ProjectSection() {
-    const ref = useRef(null)
-    const isInView = useInView(ref, { once: true })
+    // const ref = useRef(null)
+    // const isInView = useInView(ref, { once: true })
 
     return (
         <section
             id='projects'
-            className='flex flex-col mt-30 scroll-mt-25' >
+            className='flex flex-col mt-50 scroll-mt-25' >
             <h2 className='text-center mb-17 text-3xl font-semibold'>My projects</h2>
-            <ul ref={ref} className='grid sm:grid-cols-2 grid-cols-1 gap-10 mx-5'>
 
+            <ul className='grid sm:grid-cols-2 grid-cols-1 gap-10 mx-0'>
+                {projectData.map(project =>
+                    <ProjectSlide
+                        key={project.id}
+                        title={project.title}
+                        description={project.description}
+                        imageUrl={project.image}
+                        gitUrl={project.gitUrl}
+                    />
+                )}
+            </ul>
+
+            {/* <ul ref={ref} className='grid sm:grid-cols-2 grid-cols-1 gap-10 mx-5'>
                 {projectData.map((project, index) =>
                     <motion.li
                         key={index}
@@ -59,7 +71,7 @@ export default function ProjectSection() {
                         animate={isInView ? 'animate' : 'initial'}
                         transition={{ duration: 0.3, delay: index * 0.4 }}
                     >
-                        <ProjectCard
+                        <ProjectSlide
                             key={project.id}
                             title={project.title}
                             description={project.description}
@@ -68,7 +80,7 @@ export default function ProjectSection() {
                         />
                     </motion.li>
                 )}
-            </ul>
+            </ul> */}
         </section>
     )
 }

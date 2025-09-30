@@ -27,42 +27,37 @@ export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState()
 
     return (
-        <nav className='fixed top-0 left-0 right-0 z-10 bg-zinc-800'>
-            <div className='flex flex-wrap items-center justify-between mx-auto py-0 px-8 lg:px-25'>
-                <Link href={"/"} className=''>
+        <nav className='fixed top-0 left-0 right-0 z-10 bg-transparent'>
+            <div className='flex flex-wrap items-center justify-between py-5 px-16'>
+                <Link href={"/"}>
                     <Image 
                     src="/pic/logo.png"
-                    width={100}
+                    width={80}
                     height={50}
                     alt='logo'
                     />
                 </Link>
-                <div className='mobile-menu block md:hidden '>
+                <div className='block'>
                     {!navbarOpen ? (
                         <button
-                            className='flex items-center px-3 py-2 border rounded border-zinc-300 text-zinc-300 hover:text-zinc-100 hover:border-zinc-100'
+                            className='flex items-center px-2 py-2 border-2 rounded-full
+                            border-violet-500 text-violet-500 '
                             onClick={() => setNavbarOpen(true)}
                         >
-                            <Bars3Icon className='w-5 h-5' />
+                            <Bars3Icon className='w-7 h-7' />
                         </button>
                     ) : (
                         <button
-                            className='flex items-center px-3 py-2 border rounded border-zinc-300 text-zinc-300 hover:text-zinc-100 hover:border-zinc-100'
+                            className='flex items-center px-2 py-2 border-2 rounded-full
+                            border-violet-500 text-zinc-800
+                            bg-violet-500'
                             onClick={() => setNavbarOpen(false)}
                         >
-                            <XMarkIcon className='w-5 h-5' />
+                            <XMarkIcon className='w-7 h-7' />
                         </button>
                     )}
                 </div>
-                <div id='navbar' className='menu hidden md:block md:w-auto'>
-                    <ul className='flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
-                        {navLinks.map((link, index) => (
-                            <li key={index}>
-                                <NavLink href={link.path} title={link.title} />
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+
             </div>
 
             {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
