@@ -59,7 +59,7 @@ export default function AboutSection() {
     // }
 
     return (
-        <section id='about' className='text-zinc-300 scroll-mt-25 mt-45 mb-0 flex flex-col justify-center items-center'>
+        <section id='about' className='text-zinc-300 scroll-mt-35 mt-45 mb-0 flex flex-col justify-center items-center'>
 
             <div
                 ref={ref}
@@ -73,7 +73,7 @@ export default function AboutSection() {
                     className='col-span-2 row-span-3'
                 >
                     <Image
-                        src="/pic/avatar.png"
+                        src="/pic/profile-pic.png"
                         width={350}
                         height={350}
                         alt="pc pic"

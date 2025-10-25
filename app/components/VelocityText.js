@@ -32,9 +32,19 @@ export const VelocityText = () => {
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
                 <motion.p
                     style={{ skewX, x }}
-                    className="origin-bottom-left pl-250 pr-350 whitespace-nowrap text-5xl font-light uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
+                    className="origin-bottom-left pl-250 pr-450 whitespace-nowrap text-5xl font-light uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
                 >
-                    skills: JavaScript, Tailwind CSS, React JS, Next JS
+                    skills :
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    JavaScript
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    React JS
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Next JS
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Tailwind CSS
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    
                 </motion.p>
             </div>
         </section>

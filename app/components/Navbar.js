@@ -8,6 +8,7 @@ import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 
+
 const navLinks = [
     {
         title: "About",
@@ -38,6 +39,7 @@ export default function Navbar() {
                         alt='logo'
                     />
                 </Link>
+
                 <div className='block'>
                     {!navbarOpen ? (
                         <button
@@ -58,7 +60,6 @@ export default function Navbar() {
                         </button>
                     )}
                 </div>
-
             </div>
 
             {navbarOpen ?
