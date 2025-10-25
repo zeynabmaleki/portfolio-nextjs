@@ -30,22 +30,24 @@ export const VelocityText = () => {
             className="h-[250vh] bg-zinc-800 text-zinc-300"
         >
             <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-                <motion.p
+                <motion.div
                     style={{ skewX, x }}
                     className="origin-bottom-left pl-250 pr-450 whitespace-nowrap text-5xl font-light uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
                 >
-                    skills :
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    JavaScript
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    React JS
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Next JS
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Tailwind CSS
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    
-                </motion.p>
+                    <p className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500">
+                        skills :
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        JavaScript
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        React JS
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Next JS
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Tailwind CSS
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
+
+                </motion.div>
             </div>
         </section>
     );

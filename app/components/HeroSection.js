@@ -50,22 +50,6 @@ export default function HeroSection() {
                     </div>
                 </motion.div>
 
-                {/* <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }}
-                    className='cols-span-5 place-self-center mt-4 lg:mt-0'>
-                    <div className='rounded-full bg-zinc-700/20  w-[250px] h-[250px] xl:w-[350px] xl:h-[350px] relative '>
-                        <Image
-                            src="/pic/avatar.png"
-                            width={300}
-                            height={300}
-                            alt='avatar Pic'
-                            className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 '
-                        />
-                    </div>
-                </motion.div> */}
-
             </div>
         </section>
     )
