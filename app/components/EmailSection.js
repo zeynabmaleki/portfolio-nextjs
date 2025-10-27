@@ -77,6 +77,7 @@ export default function EmailSection() {
                         {/* <FaGithub /> */}
                         <Link href='https://github.com/zeynabmaleki' className='hover:text-zinc-200 '>Github</Link>
                         <Link href='https://jobvision.ir/cv/89898381-004723' className='hover:text-zinc-200 ' >Jobvision </Link>
+                        <span>+98 9120725736</span>
                     </div>
                 </motion.div>
 
