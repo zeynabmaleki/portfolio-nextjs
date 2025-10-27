@@ -35,15 +35,7 @@ export const VelocityText = () => {
                     className="origin-bottom-left pl-250 pr-450 whitespace-nowrap text-5xl font-light uppercase leading-[0.85] md:text-7xl md:leading-[0.85]"
                 >
                     <p className="text-transparent bg-clip-text bg-gradient-to-r from-violet-500 via-purple-500 to-fuchsia-500">
-                        skills :
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        JavaScript
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        React JS
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        Next JS
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        Tailwind CSS
+                        skills : JavaScript - typescript - React JS - Next JS - Tailwind CSS
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </p>
 
